@@ -11,10 +11,6 @@ import { Provider } from "react-redux";
 import rootReducer from "./reducers";
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-window.webappStart = () => {
-  injectTapEventPlugin(); // https://github.com/callemall/material-ui/issues/4670
-
-};
 
 //
 // Add the client app start up code to a function as window.webappStart.
@@ -23,6 +19,7 @@ window.webappStart = () => {
 //
 
 window.webappStart = () => {
+  injectTapEventPlugin();
   const initialState = window.__PRELOADED_STATE__;
   const store = createStore(rootReducer, initialState);
   render(

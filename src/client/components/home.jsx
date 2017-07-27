@@ -25,6 +25,10 @@ import DemoPureStates from "./demo-pure-states";
 import { DemoButtons } from "./demo-buttons";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import MyAwesomeReactComponent from './MyAwesomeReactComponent';
+import DatePicker from './date-picker';
+import SimpleList from './simple-list';
+import SimpleCheckbox from './simple-checkbox';
+import SimpleTable from './simple-table';
 /**/
 
 export default () =>
@@ -39,18 +43,13 @@ export default () =>
     </section>
    
     <MuiThemeProvider>
+      <div>
       <MyAwesomeReactComponent />
+      <DatePicker />
+      <SimpleList />
+      <SimpleCheckbox />
+      <SimpleTable />
+      </div>
     </MuiThemeProvider>
-    
-    <div className={custom["docs-section"]}>
-      <DemoStates />
-    </div>
-
-    <div className={custom["docs-section"]}>
-      <DemoPureStates />
-    </div>
-
-    <div className={custom["docs-section"]}>
-      <DemoButtons />
-    </div>
+ 
   </div>;

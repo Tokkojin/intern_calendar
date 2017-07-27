@@ -2,4 +2,4 @@
 
 There is a demo deployed at https://powerful-lowlands-97938.herokuapp.com/
 
-The "DEFAULT" button is a material design component
+The Material Design components are from http://www.material-ui.com/#/
