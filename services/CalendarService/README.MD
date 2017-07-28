@@ -1,1 +1,2 @@
-This is the Calendar Services Project. You are at the root. Append the specific Services located here: https://collaboration.wal-mart.com/pages/viewpage.action?spaceKey=MAH&title=Intern+Calendar+Documentation
+This is the InternMatch Services Project. You are at the root. Append the specific Services located here: 
+https://collaboration.wal-mart.com/display/MAH/InternMatch+Documentation
